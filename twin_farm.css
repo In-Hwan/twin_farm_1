@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+
+div#header_color {
+    background-color: white;
+}
+
+div#header_center {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+div#header_search > h1 { /* 농산물 거래소 로고 설정 */
+    width: 280px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;  /* 농산물 거래소 위치 설정 */
+    top: -2px;
+    margin: 20px;
+    padding: 33px;         /**/
+}
+
+div#header_search h2{   /* 검색 글자 지움 */
+    display: none;
+}
+
+div#header_search fieldset {  /* 검색창 설정 */
+    width: 280px;
+    height: 45px;
+    margin-left: 700px;
+    padding: 10px 0 10px 8px;
+    border: 2px solid #088c65;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -91px;
+
+}
+
+div#header_search fieldset input { 
+    border: none;
+    padding: 0;
+    outline: none;
+    vertical-align: top;
+    width: 405px;
+    height: 23px;
+}
+
+div#header_search fieldset button {
+    width: 41px;
+    height: 41px;
+    border: none;
+    padding: 0;
+    background: #088c65;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#search_image {
+    background-image: url(sp_search.png);
+    background-position: -4px -60px;
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    margin: 10px;
+    display: inline-block;
+
+}
